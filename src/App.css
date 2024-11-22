@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+/* Button*/
+.play {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #0056b3;
+  padding: 10px 30px;
+  border: 1.5px solid #0056b3;
+  transition: .3s ease;
+}
+
+.play:hover {
+  background-color: transparent;
+  color: #0056b3;
+  box-shadow: 0 0 4px #0056b3;
+}
